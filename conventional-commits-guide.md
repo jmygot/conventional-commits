@@ -30,7 +30,8 @@ feat(auth): add JWT-based login functionality
 
 ### 1. `feat` – New Feature
 
-For new features.
+A **new feature** for the user or the system. Use this when you add something that did not exist before.  
+✅ Adds value to users or stakeholders.
 
 ```
 feat(api): add pagination to account list
@@ -39,7 +40,8 @@ feat(ui): implement dark mode toggle
 
 ### 2. `fix` – Bug Fix
 
-For bug fixes.
+A **bug fix**. Use this when you resolve an error, crash, or incorrect behavior.  
+✅ Always improves correctness of existing functionality.
 
 ```
 fix(billing): correct invoice total calculation
@@ -48,7 +50,8 @@ fix(auth): handle null reference when user session expires
 
 ### 3. `docs` – Documentation Only
 
-For documentation changes.
+Changes to **documentation only**. No code behavior is changed.  
+✅ Great for README updates, API docs, or in-code documentation.
 
 ```
 docs(readme): add guide for conventional commits
@@ -57,7 +60,8 @@ docs(api): update usage examples for account endpoint
 
 ### 4. `style` – Code Style
 
-Code formatting changes, no logic impact.
+Changes that do **not affect code logic**, only formatting or styling.  
+✅ Covers whitespace, formatting, missing semicolons, indentation, or style rules.
 
 ```
 style: format code with Prettier
@@ -66,7 +70,8 @@ style(ui): fix spacing in login form
 
 ### 5. `refactor` – Code Refactoring
 
-Restructuring code without changing behavior.
+Restructuring or rewriting existing code without changing its **external behavior**.  
+✅ Makes code cleaner, easier to read, or maintainable.
 
 ```
 refactor(service): extract billing logic into helper function
@@ -75,7 +80,8 @@ refactor(auth): simplify JWT validation
 
 ### 6. `perf` – Performance Improvements
 
-Improving performance.
+A change that improves the **performance** of the application.  
+✅ Optimizations that make things faster or reduce memory/CPU usage.
 
 ```
 perf(api): optimize SQL query for account retrieval
@@ -84,7 +90,8 @@ perf(ui): reduce bundle size by lazy loading routes
 
 ### 7. `test` – Adding or Updating Tests
 
-For test changes.
+Changes that add or improve **tests**.  
+✅ Helps ensure correctness, but doesn’t change runtime behavior.
 
 ```
 test(auth): add unit tests for login handler
@@ -93,7 +100,8 @@ test(api): improve coverage for billing endpoint
 
 ### 8. `chore` – Maintenance Tasks
 
-Tooling, CI/CD, dependencies, etc.
+Routine tasks that do not affect user-facing features.  
+✅ Covers dependency updates, build scripts, CI/CD pipelines, configs.
 
 ```
 chore(deps): update to latest ASP.NET Core version
